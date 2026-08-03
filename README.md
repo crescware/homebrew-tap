@@ -2,14 +2,10 @@
 
 Homebrew tap for crescware tools.
 
-## Installation
-
-> [!WARNING]
-> No formula has been published yet. This section describes the interface
-> this tap will offer and is included as a draft.
+## Setup
 
 ```sh
-brew install crescware/tap/sbxm
+brew tap crescware/tap
 ```
 
 `crescware/tap` resolves to this repository. Homebrew supplies the
@@ -18,14 +14,7 @@ as `crescware/tap` everywhere else.
 
 ## Formulae
 
-### sbxm
-
-CLI for managing Docker Sandboxes: per-project setup and daily operations.
-
-Requires macOS 14 or later on Apple silicon, Docker Desktop with a running
-Docker Engine, and the Docker Sandboxes CLI 0.37.0 or later.
-
-Source and documentation: [crescware/sbxm](https://github.com/crescware/sbxm)
+- [sbxm](https://github.com/crescware/sbxm)
 
 ## License
 
