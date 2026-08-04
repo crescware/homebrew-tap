@@ -1,8 +1,8 @@
 class Sbxm < Formula
   desc "CLI for managing Docker Sandboxes: per-project setup and daily operations"
   homepage "https://github.com/crescware/sbxm"
-  url "https://github.com/crescware/sbxm/releases/download/v0.0.1/sbxm-aarch64-apple-darwin.tar.gz"
-  sha256 "66048e7b03ae118441272d7a9ac0b7b8171eedeb76d5700ef14abb8ec2ffa30d"
+  url "https://github.com/crescware/sbxm/releases/download/v0.0.2/sbxm-aarch64-apple-darwin.tar.gz"
+  sha256 "edb799cdefdf44b4203dfe3cefc73ae2f7bf6f458ce9759f7aaf94ea8f3cf2a0"
   license "MIT"
 
   depends_on arch: :arm64
